@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1" />
+		<title>Articles</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+			crossorigin="anonymous" />
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid container">
+				<a
+					class="navbar-brand"
+					href="index.html"
+					><img
+						src="images/user.png"
+						alt="Profile" /></a
+				><button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse"
+					id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#"
+								>Gangadhara T</a
+							>
+						</li>
+					</ul>
+					<form
+						class="d-flex"
+						role="search">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="blogs.html"
+									>Blog</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="projects.html"
+									>Projects</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#"
+									>About</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link active"
+									aria-current="page"
+									href="#"
+									>Linkedin</a
+								>
+							</li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</nav>
+		<div class="container main-top text-center my-5">
+			<img
+				src="images/dotnet.png"
+				alt="dot-net" />
+			<h1>Building a Robust E-commerce Medicine Store</h1>
+			<div class="inner-box">
+				<img
+					src="images/user.png"
+					alt="Profile" />
+				<div>
+					<h6>Harsha Thota</h6>
+					<p>5 min read · Apr 27</p>
+				</div>
+			</div>
+			<div class="blog-content text-start">
+				<!-- <h5>
+					<em
+						>Hey Guy’s, So in this article, I would like to showcase the
+						following info regarding the Reactive Programming Paradigm with
+						practical examples using .NET, empowering developers to create truly
+						unique and dynamic software solutions.</em
+					>
+				</h5>
+				<br /> -->
+				<h5><strong>Intro:</strong></h5>
+				<h6>
+					In today's digital era, e-commerce platforms have revolutionized the
+					way we shop. The convenience of ordering medicines online has gained
+					significant popularity, and creating a robust e-commerce medicine
+					store can be an excellent opportunity for entrepreneurs. In this blog
+					post, we will delve into the intricacies of developing an e-commerce
+					medicine store using .NET and SQL. We will explore the functionalities
+					of the Admin portal, the Customer portal, and the overall workflow of
+					the system. So, let's get started!
+				</h6>
+				<br />
+
+				<!-- -------------------1--------------- -->
+
+				<h5>
+					<strong>Admin Portal: </strong>
+				</h5>
+				<h6>
+					The Admin portal plays a pivotal role in the smooth functioning of an
+					e-commerce medicine store. Administrators have exclusive privileges to
+					manage the entire system. Let's take a closer look at the key
+					functionalities of the Admin portal:
+				</h6>
+				<br />
+				<h6><strong>a. Admin Login:</strong></h6>
+				<h6>
+					The Admin portal starts with a secure login system to authenticate
+					administrators. This ensures that only authorized personnel can access
+					the sensitive information and perform administrative tasks.
+				</h6>
+				<br />
+				<h6><strong>b. Dashboard:</strong></h6>
+				<h6>
+					Upon successful login, the administrator is greeted with a
+					comprehensive dashboard. The dashboard provides a view of critical
+					metrics such as pending orders, and inventory status. It helps
+					administrators make informed decisions and stay updated about the
+					store.
+				</h6>
+				<br />
+				<h6><strong>c. Product Management:</strong></h6>
+				<h6>
+					Admins can add, edit, and delete products in the inventory. They can
+					update product details such as name, description, price, and quantity.
+					Additionally, admins can upload product images to enhance the visual
+					appeal of the store.
+				</h6>
+				<br />
+				<h6><strong>d. Order Processing:</strong></h6>
+				<h6>
+					The Admin portal allows administrators to view and process customer
+					orders. They can track the status of each order, update the order
+					status (e.g., dispatched, delivered), and generate invoices for
+					customers.
+				</h6>
+				<br />
+				<h6><strong>e. Inventory Management:</strong></h6>
+				<h6>
+					Admins can efficiently manage the store's inventory by keeping track
+					of product quantities, ensuring availability, and setting up
+					notifications for low stock levels. This feature enables smooth order
+					fulfillment and prevents overselling.
+				</h6>
+				<br />
+
+				<!-- -----------------2--------------------- -->
+				<h5>
+					<strong>Customer Portal: </strong>
+				</h5>
+				<h6>
+					The Customer portal is the face of the e-commerce medicine store,
+					providing a user-friendly interface for customers to explore,
+					purchase, and manage their orders. Let's explore the functionalities
+					of the Customer portal:
+				</h6>
+				<br />
+				<h6><strong>a. User Registration and Login:</strong></h6>
+				<h6>
+					Customers can create an account by registering on the website. The
+					registration process collects necessary details such as name and
+					contact information. Once registered, customers can log in using their
+					credentials for a personalized shopping experience.
+				</h6>
+				<br />
+				<h6><strong>b. Browsing and Searching Products:</strong></h6>
+				<h6>
+					The Customer portal offers an intuitive product catalog, allowing
+					customers to browse and search for medicines based on various criteria
+					such as name, category, or brand. Advanced search functionalities make
+					it easier for customers to find specific products quickly.
+				</h6>
+				<br />
+				<h6><strong>c. Shopping Cart:</strong></h6>
+				<h6>
+					Customers can add desired medicines to their shopping carts and
+					proceed to the checkout process. The shopping cart displays a summary
+					of selected items, quantities, and total costs. Customers can review
+					and modify their cart contents before finalizing their purchases.
+				</h6>
+				<br />
+				<h6><strong>d. Order Tracking:</strong></h6>
+				<h6>
+					Once an order is placed, customers can track its status through the
+					Customer portal. Real-time updates regarding order processing,
+					dispatch, and delivery help customers stay informed about the progress
+					of their purchases.
+				</h6>
+				<br />
+
+				<!-- ----------------------3---------------- -->
+				<h5>
+					<strong>Seamless Integration: .NET and SQL Working Together:</strong>
+				</h5>
+				<h6>
+					<h6>
+						The success of an e-commerce medicine store depends on the seamless
+						integration between the front-end (.NET) and back-end (SQL)
+						components. Here's how these two technologies work together:
+					</h6>
+				</h6>
+				<br />
+				<h6><strong>a. Data Management:</strong></h6>
+				<h6>
+					SQL plays a crucial role in storing and managing essential data, such
+					as user details, product information, order history, and more. The
+					.NET framework leverages SQL queries to retrieve and update data,
+					ensuring efficient data management and seamless user experiences.
+				</h6>
+				<br />
+				<h6><strong>b. Security and Authentication:</strong></h6>
+				<h6>
+					.NET provides robust security features for user authentication and
+					authorization. Through secure login mechanisms, it protects sensitive
+					user data and prevents unauthorized access. SQL further strengthens
+					security by securely storing user credentials using encryption
+					techniques.
+				</h6>
+				<br />
+				<h6><strong>c. Performance Optimization:</strong></h6>
+				<h6>
+					By utilizing SQL's query optimization techniques, developers can
+					enhance the performance of the e-commerce medicine store. Indexing,
+					query tuning, and caching strategies are employed to reduce latency
+					and ensure quick response times, even during high traffic scenarios.
+				</h6>
+				<br />
+				<h5><strong>Conclusion:</strong></h5>
+				<h6>
+					Building an e-commerce medicine store using .NET and SQL empowers
+					entrepreneurs to tap into the immense potential of online medicine
+					sales. With the Admin portal for effective management and the Customer
+					portal for seamless shopping experiences, this system offers a
+					comprehensive solution for the evolving needs of the healthcare
+					industry. By harnessing the power of .NET and SQL, developers can
+					create a reliable, secure, and scalable e-commerce platform that
+					caters to the needs of both administrators and customers.
+				</h6>
+				<br />
+			</div>
+			<!-- --------------------end------------------ -->
+
+			<div class="header">
+				<h3><strong>----- Also Checkout these -----</strong></h3>
+			</div>
+			<div class="recommend">
+				<div>
+					<div class="flex">
+						<img
+							src="images/blog.jpg"
+							alt="blog" />
+						<div class="box">
+							<img
+								src="images/user.png"
+								alt="Profile" />
+							<div>
+								<h6>Harsha Thota</h6>
+								<p>5 min read · Apr 27</p>
+							</div>
+							<a
+								href="project1.html"
+								class="btn btn-outline-dark"
+								>Visit
+								<img
+									src="images/send.png"
+									alt=""
+							/></a>
+						</div>
+						<div class="content-box">
+							<h6>Building a Robust E-commerce Medicine Store</h6>
+							<p>
+								<em>In today's digital era, e-commerce platforms have.....</em>
+							</p>
+						</div>
+					</div>
+					<div class="flex">
+						<img
+							src="images/blog.jpg"
+							alt="blog" />
+						<div class="box">
+							<img
+								src="images/user.png"
+								alt="Profile" />
+							<div>
+								<h6>Harsha Thota</h6>
+								<p>5 min read · Apr 27</p>
+							</div>
+							<a
+								href="project2.html"
+								class="btn btn-outline-dark"
+								>Visit
+								<img
+									src="images/send.png"
+									alt=""
+							/></a>
+						</div>
+						<div class="content-box">
+							<h6>Building a Seamless Tourist Booking System with ASP.NET</h6>
+							<p>
+								<em
+									>In today's fast-paced world, the tourism industry is....</em
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div>
+					<div class="flex">
+						<img
+							src="images/blog.jpg"
+							alt="blog" />
+						<div class="box">
+							<img
+								src="images/user.png"
+								alt="Profile" />
+							<div>
+								<h6>Harsha Thota</h6>
+								<p>6 min read · Apr 07</p>
+							</div>
+							<a
+								href="project3.html"
+								class="btn btn-outline-dark"
+								>Visit
+								<img
+									src="images/send.png"
+									alt=""
+							/></a>
+						</div>
+						<div class="content-box">
+							<h6>
+								Building a Streamlined Leave Application Management System Using
+								the Spring Framework
+							</h6>
+							<p>
+								<em
+									>In today's fast-paced world, effective leave management is
+									essential......</em
+								>
+							</p>
+						</div>
+					</div>
+					<div class="flex">
+						<img
+							src="images/blog.jpg"
+							alt="blog" />
+						<div class="box">
+							<img
+								src="images/user.png"
+								alt="Profile" />
+							<div>
+								<h6>Harsha Thota</h6>
+								<p>10 min read · Jun 27</p>
+							</div>
+							<a
+								href="project4.html"
+								class="btn btn-outline-dark"
+								>Visit
+								<img
+									src="images/send.png"
+									alt=""
+							/></a>
+						</div>
+						<div class="content-box">
+							<h6>
+								Building a Captivating 2D Platformer: A Journey with C# and
+								Unity 3D
+							</h6>
+							<p>
+								<em
+									>In the ever-evolving world of game development, 2D
+									platformers have remained a beloved genre......</em
+								>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>&#169; Gangadhara T</p>
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
